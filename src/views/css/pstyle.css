@@ -1,0 +1,125 @@
+/*=========== NAVBAR ============*/
+
+.fondo-navbar{
+    background: #3430b0;
+}
+
+nav a img{
+    height: 25px;
+}
+
+nav div ul li a{
+    /*height: 15px ;*/
+    font-size: 15px;
+   font-weight: bold;
+}
+nav div ul li a  .login{
+  
+  font-size: 25px;
+  /*text-align: center;*/
+  margin-top:12px ;
+}
+
+nav div ul li a  .btn-login{
+  
+   height: 20px;
+  }
+  
+  /* Banner */
+  #home a:hover{
+     background-color: white !important; 
+     color: black !important;
+  }
+
+  .header-hero{
+      position: relative;
+      z-index:  5;
+      background-position:  center;
+      background-repeat: no-repeat;
+      background-image: url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  }
+
+.header-hero-content{
+    padding-top: 180px;
+}
+
+
+
+@media (max-width: 767px){
+    .header-hero-content{
+      padding-top: 100px; 
+    } 
+  }
+  
+  .header-hero-content .header-sub-title {
+    font-size: 38px;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  @media (max-width: 767px){
+    .header-hero-content .header-sub-title{
+      font-size: 24px; 
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px){
+    .header-hero-content .header-sub-title{
+      font-size: 30px;
+    } 
+  }
+  
+  .header-hero-content .header-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff; 
+  }
+  
+  @media (max-width: 767px) {
+    .header-hero-content .header-title {
+      font-size: 24px; 
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-hero-content .header-title {
+      font-size: 30px; 
+    }
+  }
+  
+  .header-hero-content .text{
+    color: #fff;
+    margin-top: 30px; 
+  }
+  
+  .header-hero-content .main-btn{
+    margin-top: 40px;
+  }
+  
+  .header-hero-image{
+    padding-top: 45px;
+  }
+  
+  .header-hero-image img{
+    max-width: 650px; 
+  }
+  
+  @media (max-width: 767px){
+    .header-hero-image img{
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 767px){
+    .header-hero-image{
+      padding-top: 30px;
+    }
+  }
+  
+  #particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
