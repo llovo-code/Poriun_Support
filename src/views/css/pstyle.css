@@ -123,3 +123,36 @@ nav div ul li a  .btn-login{
     height: 100%;
     z-index: -1; 
   }
+
+  /* Footer */
+  
+  footer{
+    background: linear-gradient(to bottom,  #004e92 0%,  #000428 100%);
+}
+p{
+    color: white;
+    text-align: left;
+}
+h5{
+    
+    color: white;
+}
+.br{
+    display: block; 
+    margin-bottom: 0em;
+}
+img{
+    margin-bottom: -20px;
+    margin-top: -25px; 
+}
+.row{
+    text-align: left;
+}
+.col-sm{
+    text-align: left;
+    
+}
+.col{
+    padding-left: 50px;
+}
+
