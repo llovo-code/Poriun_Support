@@ -155,4 +155,8 @@ img{
 .col{
     padding-left: 50px;
 }
-
+input[type=search] {
+  -webkit-appearance: none;
+  border-radius: 20px;
+  padding: 3px 5px;
+}
