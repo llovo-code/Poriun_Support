@@ -128,8 +128,9 @@ nav div ul li a  .btn-login{
   
   footer{
     background: linear-gradient(to bottom,  #004e92 0%,  #000428 100%);
+   
 }
-p{
+#pfooter{
     color: white;
     text-align: left;
 }
@@ -159,4 +160,8 @@ input[type=search] {
   -webkit-appearance: none;
   border-radius: 20px;
   padding: 3px 5px;
+}
+a:hover {
+  font-size:20px;
+  color:#100;
 }
