@@ -167,8 +167,8 @@ input[type=search] {
 }
 
 .rotate{
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+          transition:         transform .5s ease-in-out;
 }
 .rotate:hover{
   -webkit-transform: rotate(360deg);
