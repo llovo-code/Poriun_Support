@@ -1,0 +1,17 @@
+Create Wave : {
+        https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
+        https://getwaves.io/
+} 
+
+Get Gradients: https://uigradients.com/
+
+Github helper: https://github.com/AlexCGDesign
+
+Ilustrations: {
+    https://alexcgdesign.com/blog/ilustraciones-svg-para-paginas-web/
+    https://undraw.co/illustrations
+    https://www.manypixels.co/
+    https://iradesign.io/
+    https://www.humaaans.com/
+    https://lukaszadam.com/illustrations
+}
