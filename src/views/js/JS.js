@@ -27,6 +27,8 @@ $('.owl-carousel').owlCarousel({
         },
     }
 });
+/*JS DE TIMELINE*/
+
 
 /*$(document).ready(function() { 
     $('.itemNav').click(function(){
