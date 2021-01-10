@@ -178,6 +178,7 @@ nav div ul li a  .btn-login{
 *
 */
   /* Inicio Timeline*/
+  
   .blue-bg {
     background-color: #ffffff;
     color:  #004e92;
@@ -188,9 +189,11 @@ nav div ul li a  .btn-login{
     font-weight: bold;
     padding: 15px 20px;
     border-radius: 50%;
-    background: linear-gradient(to bottom,  #004e92 0%,  #000428 100%);
-    color: #ffffff;
-    max-height: 50px;
+    background-color:  #fff;
+    border: 3px solid #004e92;
+    color: #004e92;
+    max-height: 100px;
+    max-width: 100%;
     z-index: 2;
   }
   
@@ -221,8 +224,7 @@ nav div ul li a  .btn-login{
     height: 50%;
     left: 50%;
     top: 0;
-  }
-  
+  } 
   .timeline div {
     padding: 0;
     height: 40px;
@@ -323,7 +325,7 @@ footer .rotate:hover{
 }
 
  
-#social_media i {
+#social_media a {
   font-size:25px; 
   color:white; 
   padding-left:0px; 
