@@ -188,7 +188,7 @@ nav div ul li a  .btn-login{
     font-weight: bold;
     padding: 15px 20px;
     border-radius: 50%;
-    background-color:#004e92;
+    background: linear-gradient(to bottom,  #004e92 0%,  #000428 100%);
     color: #ffffff;
     max-height: 50px;
     z-index: 2;
@@ -199,14 +199,13 @@ nav div ul li a  .btn-login{
   }
   .how-it-works.row .col-2 {
     display: inline-flex;
-    align-self: auto;
+    align-self: auto; /*Alinear esferas de fecha*/
     align-items: center;
     justify-content: center;
   }
   .how-it-works.row .col-2::after {
     content: "";
     position: absolute;
-    border-left: 3px solid #009231;
     z-index: 1;
   }
   .how-it-works.row .col-2.bottom::after {
