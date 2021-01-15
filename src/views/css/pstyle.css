@@ -139,7 +139,7 @@ nav div ul li a  .btn-login{
   }
   
  /*###############################################################*/
-  /*informacion*/
+  /*informacion*//*
   #information {
     color: #000428;
   }
@@ -166,9 +166,31 @@ nav div ul li a  .btn-login{
   #information .tarjeta {
     max-height: 315px;
     overflow:auto;
-    /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);*/
-  }
+    /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+  }*/
 
+#features{
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 80px;
+}
+/* 
+ #own-icon_features{
+  width: 1.35em;
+  height: 1.35em; 
+  line-height: 1.35em; 
+  position: relative; 
+  -webkit-transition: none; transition: none;
+  display: block;
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+#own-icon_features:hover{
+  transform:translate(0,-100px);
+  opacity: 1;
+} */
 /*#######################################################*/
 /*
 *

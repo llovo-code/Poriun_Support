@@ -1,6 +1,10 @@
 Create Wave : {
         https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
         https://getwaves.io/
+        https://svgwave.in/
+        https://codepen.io/peacepostman/pen/jBavvN/
+        https://www.producthunt.com/posts/svg-wave
+        https://mdbootstrap.com/snippets/jquery/dawidadach/2323178#html-tab-view
 } 
 
 Get Gradients: https://uigradients.com/
