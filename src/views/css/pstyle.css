@@ -166,6 +166,12 @@ svg {
     text-align: center;
 }
 
+.containerTimeline {
+    color: #000428;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .containerCount {
     margin: 0 auto;
     text-align: center;
