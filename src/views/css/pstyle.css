@@ -1,6 +1,6 @@
 /*=========== NAVBAR ============*/
 
-.navbar{
+.navbar {
     height: 65px;
 }
 
@@ -20,7 +20,6 @@ nav a img {
 nav div ul li a {
     /*height: 15px ;*/
     font-size: 15px;
-    
 }
 
 nav div ul li a .login {
@@ -33,22 +32,23 @@ nav div ul li a .btn-login {
     height: 20px;
 }
 
-.ajustar{
-    padding-top: 12%; 
+.ajustar {
+    padding-top: 40px;
     color: #fff;
 }
 
-.redondo{
-    display: flex;
+.redondo {
+    display: auto;
     width: 200px;
     height: 40px;
-    border-radius: 15%; 
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
     color: #fff;
-    border: #fff 2px solid;
-    padding-top: 4%;
+    border: #fff 1px solid;
+    padding-top: 3.5%;
 }
+
 
 /* Banner */
 
@@ -146,7 +146,7 @@ nav div ul li a .btn-login {
 }
 
 .header-hero-image img {
-    max-width: 180px;
+    max-width: 120px;
 }
 
 @media (max-width: 767px) {
@@ -185,7 +185,6 @@ svg {
     margin: 0 auto;
     text-align: center;
 }
-
 
 .containerTimeline {
     color: #fff;
