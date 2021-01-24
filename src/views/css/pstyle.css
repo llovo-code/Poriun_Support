@@ -173,7 +173,7 @@ svg {
     color: #fff;
     position: relative;
     z-index: 5;
-    width: auto;
+    width: 100%;
     height: auto;
     background-position: center;
     background-repeat: repeat;
@@ -200,13 +200,25 @@ h1 {
     letter-spacing: 10px;
     color: #071b49;
     text-transform: uppercase;
-    width: 100%;
+    width: auto;
     text-align: center;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
     line-height: 0.7em;
     outline: none;
     animation: animate 5s linear infinite;
     z-index: 6;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .h2Count {
+        font-size: 3.5em;
+    }
 }
 
 @keyframes animate {
