@@ -20,7 +20,7 @@ nav a img {
 nav div ul li a {
     /*height: 15px ;*/
     font-size: 15px;
-    font-weight: bold;
+    
 }
 
 nav div ul li a .login {
@@ -33,6 +33,22 @@ nav div ul li a .btn-login {
     height: 20px;
 }
 
+.ajustar{
+    padding-top: 15%; 
+    color: #fff;
+}
+
+.redondo{
+    display: flex;
+    width: 130px;
+    height: 40px;
+    border-radius: 15%; 
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: #fff 2px solid;
+    padding-top: 6%;
+}
 
 /* Banner */
 
@@ -276,7 +292,7 @@ li span {
 
 .blue-bg {
     background-color: #ffffff;
-    color: #004e92;
+    color: #fff;
     height: 100%;
 }
 
@@ -335,7 +351,7 @@ li span {
 }
 
 .timeline hr {
-    border-top: 3px solid#004e92;
+    border-top: 3px solid#fff;
     margin: 0;
     top: 17px;
     position: relative;
@@ -347,7 +363,7 @@ li span {
 }
 
 .timeline .corner {
-    border: 3px solid#004e92;
+    border: 3px solid#fff;
     width: 100%;
     position: relative;
     border-radius: 15px;
