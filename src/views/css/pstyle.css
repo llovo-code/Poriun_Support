@@ -146,24 +146,6 @@ nav div ul li a .btn-login {
     margin-bottom: 80px;
 }
 
-.body4 {
-    overflow: hidden;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-image: /*linear-gradient(to bottom, rgb(12, 4, 124) 0%, rgba(43, 134, 238, 0.24) 35%);*/
-    linear-gradient(to bottom, rgb(43, 134, 238) 50%, rgba(12, 4, 124) 35%);
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-}
-
 
 /*#######################################################*/
 
@@ -190,7 +172,7 @@ svg {
     position: relative;
     width: 100%;
     height: auto;
-    background-color: rgb(34, 35, 105);
+    background-color: rgb(43, 134, 238);
     background-position: center;
 }
 
@@ -336,7 +318,7 @@ li span {
 /* Inicio Timeline*/
 
 .blue-bg {
-    background-color: rgb(34, 35, 105);
+    background-color: rgb(43, 134, 238);
     color: #004e92;
     height: 100%;
 }
