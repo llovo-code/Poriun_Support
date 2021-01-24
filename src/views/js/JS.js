@@ -67,7 +67,6 @@ function Countdown() {
         }, 0);
 };
 
-
 $(document).ready(
     function() {
         Countdown();
