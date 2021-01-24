@@ -63,6 +63,7 @@ nav div ul li a .btn-login {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    margin-bottom: -30px;
 }
 
 .header-hero-content {
@@ -231,7 +232,7 @@ nav div ul li a .btn-login {
 .transition>div {
     width: 100px;
     height: 100px;
-    background: #f5f0f000;
+    background-color: rgb(37, 66, 136);
     transition: width 2s, height 2s, margin 2s;
     margin: auto;
 }
