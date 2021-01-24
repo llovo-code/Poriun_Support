@@ -33,7 +33,7 @@ nav div ul li a .btn-login {
 }
 
 .ajustar {
-    padding-top: 40px;
+    padding-top: 10px;
     color: #fff;
 }
 
@@ -47,6 +47,8 @@ nav div ul li a .btn-login {
     color: #fff;
     border: #fff 1px solid;
     padding-top: 3.5%;
+    background: linear-gradient(to bottom, hsla(234, 100%, 8%, 0.973), #004e92);
+    cursor: pointer;
 }
 
 
