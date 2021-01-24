@@ -1,5 +1,9 @@
 /*=========== NAVBAR ============*/
 
+.navbar{
+    height: 65px;
+}
+
 .fondo-navbar {
     background: #000428;
     /* fallback for old browsers */
