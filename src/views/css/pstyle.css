@@ -37,6 +37,11 @@ nav div ul li a .btn-login {
     color: #fff;
 }
 
+.ajustarBoton {
+    padding-top: -10px;
+    color: #fff;
+}
+
 .redondo {
     display: auto;
     width: 200px;
@@ -47,7 +52,7 @@ nav div ul li a .btn-login {
     color: #fff;
     border: #fff 1px solid;
     padding-top: 3.5%;
-    background: linear-gradient(to bottom, hsla(234, 100%, 8%, 0.973), #004e92);
+    background: linear-gradient(to bottom, hsla(234, 88%, 32%, 0.973), #004e92);
     cursor: pointer;
 }
 
