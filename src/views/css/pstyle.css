@@ -35,7 +35,12 @@ nav div ul li a .btn-login {
 }
 
 .ajustar {
-    padding-top: 40px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.ajustarBoton {
+    padding-top: -10px;
     color: #fff;
 }
 
@@ -49,6 +54,8 @@ nav div ul li a .btn-login {
     color: #fff;
     border: #fff 1px solid;
     padding-top: 3.5%;
+    background: linear-gradient(to bottom, hsla(234, 88%, 32%, 0.973), #004e92);
+    cursor: pointer;
 }
 
 
@@ -195,15 +202,24 @@ svg {
 }
 
 .containerCount {
+    padding-bottom: 1px;
     margin: 0 auto;
     text-align: center;
     color: #fff;
     position: relative;
     z-index: 5;
-    background-position: center;
-    background-repeat: no-repeat;
     width: auto;
     height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, hsla(234, 100%, 8%, 0.788), hsla(208, 100%, 29%, 0.137)), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, hsla(234, 100%, 8%, 0.788), hsla(208, 100%, 29%, 0.137)), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
 }
 
 h1 {
@@ -212,12 +228,57 @@ h1 {
     text-transform: uppercase;
 }
 
+.h2Count {
+    position: relative;
+    padding-top: 40px;
+    font-size: 5em;
+    letter-spacing: 10px;
+    color: #071b49;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    z-index: 6;
+}
+
+@keyframes animate {
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: #0a2462;
+        text-shadow: none;
+    }
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px#03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
+    }
+}
+
 li {
     display: inline-block;
     font-size: 1.5em;
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 li span {
@@ -255,7 +316,7 @@ li span {
 .h1Count {
     color: #fff;
     font: normal 75px Varela Round, sans-serif;
-    height: 100px;
+    height: auto;
     left: 0;
     letter-spacing: 5px;
     margin: 0px 0 0 0;
