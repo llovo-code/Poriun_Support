@@ -229,12 +229,18 @@ nav div ul li a .btn-login {
 
 /*probando....*/
 
+.txtc {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
 .transition>div {
     width: 100px;
     height: 100px;
     background-color: rgb(37, 66, 136);
     transition: width 2s, height 2s, margin 2s;
     margin: auto;
+    /* overflow-y: auto;*/
 }
 
 .transition:hover>div {
@@ -242,6 +248,7 @@ nav div ul li a .btn-login {
     height: 200px;
     margin: auto;
     color: black;
+    /* overflow-y: auto;*/
 }
 
 .fading {
