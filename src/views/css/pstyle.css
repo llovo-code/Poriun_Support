@@ -76,7 +76,7 @@ nav div ul li a .btn-login {
     background-position: top;
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    height: max-content;
     background: #000428;
     /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to top, hsla(234, 100%, 8%, 0.788), hsla(208, 100%, 29%, 0.137)), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');*/
@@ -156,7 +156,7 @@ nav div ul li a .btn-login {
 
 @media (max-width: 767px) {
     .header-hero-image img {
-        max-width: 50%;
+        max-width: 20%;
     }
 }
 
@@ -374,7 +374,7 @@ h1 {
 .h2Count {
     position: relative;
     padding-top: 40px;
-    font-size: 5em;
+    font-size: 3em;
     letter-spacing: 10px;
     color: #071b49;
     text-transform: uppercase;
@@ -394,7 +394,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .h2Count {
-        font-size: 3.5em;
+        font-size: 2em;
     }
 }
 
@@ -430,14 +430,14 @@ li {
     display: inline-block;
     font-size: 1.5em;
     list-style-type: none;
-    padding: 1em;
+    padding: 0.5em;
     text-transform: uppercase;
     margin-top: 30px;
 }
 
 li span {
     display: block;
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
 
 .message {
@@ -507,6 +507,7 @@ li span {
 /* Inicio Timeline*/
 
 .blue-bg {
+    overflow: hidden;
     background-color: #ffffff;
     color: #fff;
     height: 100%;
