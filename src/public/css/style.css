@@ -1,0 +1,587 @@
+body, h3{
+    font-family: 'Raleway', sans-serif !important;
+    position: relative !important;
+}
+
+#fondo {
+  background-image: url('../images/bgt.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Fondo degradado con transparencia*/
+/*body:before{
+    content: "";
+    width: 100%;
+    height: 300vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #52c4ff, #ad55c1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+    z-index: -1;
+}*/
+
+.shadow{
+    box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
+}
+
+.btn-outline-light:hover{
+    color: black !important;
+}
+
+/*=========== NAVBAR ============*/
+#icon-login{
+    width: 108px;
+    height: 40px;
+}
+
+.fondo-navbar{
+    background: #3430b0;
+}
+
+.top-nav-collapse{
+    background: #304998 !important;
+}
+
+/*
+#header #info{
+    color: white;
+}
+
+#header #info:hover{
+    transition: ease 0.2s;
+    color: rgb(180, 180, 180);
+}*/
+
+/*============= MODALES ==============*/
+.modalButton{
+  background: #3e90d3;
+}
+
+.modalButton:hover{
+  background: #304998 ;
+  color: white;
+}
+
+.modalImg{
+  width: 100%;
+}
+
+#modalCarrito .modal-content{
+  border: solid 1px black;
+}
+
+/*========= ENCABEZADO SECCIONES =====*/
+#subtitulo {
+  color: black;
+}
+
+#titulo {
+  font-weight: bold;
+  color: black;
+}
+
+/*=============== BANNER INICIO =============*/
+#home a:hover{
+  background-color: white !important;
+  color: black !important;
+}
+
+.header-hero{
+  position: relative;
+  z-index: 5;
+  background-position: bottom center; 
+  background-repeat: no-repeat;
+}
+
+#particles-js{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+}
+
+.header-hero-content{
+  padding-top: 180px;
+}
+
+@media (max-width: 767px){
+  .header-hero-content{
+    padding-top: 100px; 
+  } 
+}
+
+.header-hero-content .header-sub-title {
+  font-size: 38px;
+  font-weight: 300;
+  color: #fff;
+}
+
+@media (max-width: 767px){
+  .header-hero-content .header-sub-title{
+    font-size: 24px; 
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  .header-hero-content .header-sub-title{
+    font-size: 30px;
+  } 
+}
+
+.header-hero-content .header-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff; 
+}
+
+@media (max-width: 767px) {
+  .header-hero-content .header-title {
+    font-size: 24px; 
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .header-hero-content .header-title {
+    font-size: 30px; 
+  }
+}
+
+.header-hero-content .text{
+  color: #fff;
+  margin-top: 30px; 
+}
+
+.header-hero-content .main-btn{
+  margin-top: 40px;
+}
+
+.header-hero-image{
+  padding-top: 45px;
+}
+
+.header-hero-image img{
+  max-width: 650px; 
+}
+
+@media (max-width: 767px){
+  .header-hero-image img{
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px){
+  .header-hero-image{
+    padding-top: 30px;
+  }
+}
+
+/*================= SERVICIOS ===========*/
+#servicios img {
+  padding-top: 20px;
+  width: 45%;
+  max-height: 170px;
+  display: block;
+  margin: auto;
+}
+
+#servicios #relleno {
+  /*background: rgb(241, 255, 255);*/
+  /*border: none;*/
+  text-align: justify;
+}
+
+#servicios #relleno h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#servicios #relleno h5 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#servicios .tarjeta {
+  max-height: 315px;
+  /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);*/
+}
+
+/*#servicios #relleno a{
+    text-decoration: none;
+    color: black;
+}
+
+#servicios #relleno:hover{
+    cursor: pointer;
+}*/
+
+/*==================== BANNER ================*/
+#banner img {
+  width: 100%;
+  min-height: 280px;
+  /*height: 50vh;*/
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.banner_img {
+  position: relative;
+  display: inline-block;
+}
+
+.texto_banner {
+  position: absolute;
+  top: 35%;
+  color: white;
+}
+
+.texto_banner_des {
+  position: absolute;
+  top: 48%;
+  color: white;
+}
+
+.bg-btn-somos{
+    background: #306FB0;
+    color: white !important;
+}
+
+.bg-btn-somos:hover{
+    background: #2D89A6;
+}
+
+/*================= JUEGOS =============*/
+.juegos__columna {
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+.juegos__descripcion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  height: 100%;
+
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.juegos__descripcion_izquierda {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  height: 100%;
+
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.juegos__titulo {
+  font-size: 30px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.juegos__img {
+  width: 100%;
+}
+
+.juegos__txt {
+  text-align: justify;
+  font-size: 12px;
+}
+
+.btn-juegos {
+  background: blue;
+  color: white;
+}
+
+.btn-juegos:hover {
+  background-color: rgb(76, 76, 250);
+}
+
+.bg-btn-juegos{
+    background: #306FB0;
+    color: white !important;
+}
+
+.bg-btn-juegos:hover{
+    background: #2D89A6;
+}
+
+@media(min-width:480px) {}
+
+@media(min-width:990px) {
+  .juegos__titulo {
+    font-size: 40px;
+  }
+
+  .juegos__txt {
+    font-size: 15px;
+  }
+}
+
+/*======== BOLETIN INFORMATIVO =============*/
+#boletin {
+  background: white;
+  /*box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);*/
+  box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
+}
+
+/*.boletin button{
+    background-color: rgb(168, 0, 22);
+    color: white;
+}*/
+
+/* ================ RESEÑAS ===============*/
+#reseñas .contenedor_reseña {
+  background-color: white;
+  padding: 20px;
+  text-align: justify;
+  /*box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.8);*/
+}
+
+#reseñas #texto_reseña {
+  border-left: 5px solid gray;
+  padding-left: 8px;
+  font-style: italic;
+}
+
+#reseñas #usuario_reseña {
+  font-size: 60px;
+  font-weight: 100;
+  color: black;
+  text-decoration: none;
+}
+
+#reseñas #nombre_usuario_reseña {
+  padding-top: 45px;
+}
+
+/*================= CONTACTANOS ============*/
+#area_mensaje{
+    height: 180px;
+}
+
+/*==================== FOOTER ==============*/
+#footer {
+  background: #304998;
+  color: white;
+  text-align: justify;
+}
+
+#footer hr {
+  background: white;
+}
+
+#footer #info {
+  text-decoration: none;
+  color: white;
+}
+
+#footer #info:hover {
+  transition: ease 0.2s;
+  color: rgb(180, 180, 180);
+}
+
+#footer #redes {
+  color: white;
+  font-size: 25px;
+  background-color: #19348f;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+#footer #redes:hover {
+  transition: ease 0.2s;
+  background-color: white;
+  color: #19348f;
+}
+
+#footer .esconder {
+  background: rgb(48, 72, 152);
+}
+
+#reservado {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* =============================================================*/
+/*================ PAGINA PREGUNTAS FRECUENTES =================*/
+#separador {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* =============================================================*/
+/* ==================== PAGINA QUIENES SOMOS ===================*/
+.quienes_somos,
+.mision,
+.vision {
+  background: white;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.quienes_somos {
+  margin-top: 57px;
+  padding-top: 0;
+}
+
+.mision {
+  margin-bottom: 57px;
+}
+
+/* =============================================================*/
+/* ================ PAGINA CATALOGO DE JUEGOS ==================*/
+.games-banner{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url('../images/GamingBanner.jpg') 100% 100% fixed;
+  padding: 1rem;
+  height: 426px;
+}
+
+#catalogo a{
+    text-transform: none;
+    padding: 5px 12px 5px 12px;
+}
+
+#catalogo a:hover{
+    color: black !important;
+    background-color: white !important;
+}
+
+#catalogo img{
+    width: 100%;
+    max-height: 415px;
+}
+
+#catalogo .item_catalogo {
+  position: relative;
+  overflow: hidden;
+}
+
+#catalogo .imagen_catalogo {
+  transition: all 0.5s;
+}
+
+#catalogo .descripcion_catalogo {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+
+  transform: translateY(100%);
+  transition: all 0.3s ease-out;
+}
+
+#catalogo .descripcion_catalogo p {
+  text-align: justify;
+}
+
+#catalogo .item_catalogo:hover .descripcion_catalogo {
+  transform: translateY(0%);
+}
+
+#catalogo .item_catalogo:hover .imagen_catalogo {
+  transform: scale(1.15);
+}
+
+/*=====================================================*/
+/*================ PAGINA POLITICAS ===================*/
+#politicas .cuerpo {
+  text-align: justify;
+  /*border: 1px solid black;*/
+}
+
+/*=====================================================*/
+/*========= PAGINA TERMINOS Y CONDICIONES =============*/
+#terminos .cuerpo {
+  text-align: justify;
+  /*border: 1px solid black;*/
+}
+
+.text-blue {
+  color: #304998;
+}
+
+/*=====================================================*/
+/*========= PAGINA TERMINOS Y CONDICIONES =============*/
+.accordion .card button{
+  text-decoration: none;
+}
+
+.accordion .card-header:hover{
+  transition: ease 0.4s;
+}
+
+.accordion .card-header:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+/*=====================================================*/
+/*================ PAGINA SERVICIOS ===================*/
+
+.service-banner{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url('../images/ServicesBanner.jpg') 100% 100% fixed;
+  padding: 1rem;
+  height: 426px;
+}
+
+.service-card,
+.service-card > .row{
+  min-height: 235px;
+}
+
+.service-img{
+  height: 100%;
+  object-fit: cover;
+}
+
+/*===========================================================*/
+/*================= PAGINA ECOMMERCE ======================*/
+.ecommerce-banner{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url('../images/ShopBanner.jpg') 100% 100% fixed;
+  padding: 1rem;
+  height: 426px;
+}
+
+.fondo-filtros{
+    background: #304998 !important;
+}
