@@ -70,7 +70,75 @@ function Countdown() {
 
 $(document).ready(
     function() {
+        mouseoutcards();
+        mouseovercards();
         Countdown();
 
     }
 );
+
+
+function mouseoutcards() {
+    $('.transition').on('mouseout', function() {
+
+        var img = $(this).find('img');
+        //alert(img.length);
+        for (var i = 0; i < img.length; i++) {
+            if (i != 0) {
+                $(this).find('img').eq(i).hide();
+            } else {
+                $(this).find('img').eq(i).attr('src', '../views/images/seguridad-blanco.png');
+            }
+
+        }
+        $(this).find('img').css({
+            'height': '50px',
+            'width': '50px',
+            'margin-left': '-20px',
+
+        });
+        $(this).find('.card').css({
+            'background': '#ffffff00',
+            'border': '0px',
+            'box-shadow': 'none'
+        });
+        $(this).css('height', '150px');
+        $(this).find('p').css('display', 'none');
+    });
+
+}
+
+
+function mouseovercards() {
+
+    $('.transition').on('mouseover', function() {
+
+        $(this).css({
+            'margin-top': '30px',
+        });
+
+        var img = $(this).find('img');
+        //alert(img.length);
+        for (var i = 0; i < img.length; i++) {
+            if (i != 0) {
+                $(this).find('img').eq(i).show();
+            } else {
+                $(this).find('img').eq(i).attr('src', '../views/images/seguridad.png');
+            }
+        }
+
+        $(this).find('img').css({
+            'height': '50px',
+            'width': '50px',
+            'margin-left': '20px',
+            'margin-top': '20px'
+
+        });
+        $(this).find('.card').css({
+            'background': 'white',
+            'border': '0px'
+        });
+        $(this).css('height', 'auto');
+        $(this).find('p').css('display', 'block');
+    });
+}
