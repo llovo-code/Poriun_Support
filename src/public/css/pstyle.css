@@ -432,6 +432,30 @@ nav div ul li a .btn-login {
 }
 
 
+/*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+
+.rounded-lg {
+    border-radius: 1rem;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+div.h4 {
+    line-height: 1rem;
+}
+
+
+/* Fin Ciruclo*/
+
+
 /* Inicio Countdown*/
 
 svg {
