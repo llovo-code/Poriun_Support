@@ -330,6 +330,27 @@ nav div ul li a .btn-login {
 }
 
 
+/* Inicio informacion */
+
+.infoContainer {
+    width: 100%;
+    height: max-content;
+}
+
+.txtInfoColor {
+    color: white;
+    background-color: rgb(37, 66, 136);
+}
+
+.imgInformacion {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Final informacion*/
+
+
 /*#######################################################*/
 
 
@@ -615,6 +636,7 @@ li span {
 
 footer {
     background: linear-gradient(to bottom, #004e92 0%, #000428 100%);
+    bottom: 0px;
 }
 
 #footerText {
@@ -624,7 +646,6 @@ footer {
 #pfooter {
     color: white;
     text-align: left;
-    bottom: 0px;
 }
 
 footer h5 {
