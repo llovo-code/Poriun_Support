@@ -1,50 +1,44 @@
 /*=========== NAVBAR ============*/
 
-
-/* 
-.navbar {
-    height: 65px;
-} */
-
-.fondo-navbar {
-    background: #000428;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #000428, #004e92);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, hsla(234, 100%, 8%, 0.973), #004e92);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.nav ul li {
+    margin-top: 0px !important;
 }
 
-nav ul li {
-    margin-top: 0px !important;
+.fondo-navbar {
+    /*background: #000428;*/
+    background: rgb(30, 64, 145);
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, #000428, #004e92);
+    /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to bottom, hsla(234, 100%, 8%, 0.973), #004e92); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav a img {
     height: 25px;
 }
 
-nav div ul li a {
+nav div a {
     /*height: 15px ;*/
     font-size: 15px;
 }
 
-nav div ul li a .login {
+nav .collapse div .navbar-nav a .login {
     font-size: 25px;
     /*text-align: center;*/
     margin-top: 12px;
+    margin-right: 10px;
 }
 
-nav div ul li a .btn-login {
+nav div a .btn-login {
     height: 20px;
 }
 
 .ajustar {
-    padding-top: 10px;
     color: #fff;
 }
 
 .ajustarBoton {
-    padding-top: -10px;
     color: #fff;
 }
 
@@ -54,12 +48,14 @@ nav div ul li a .btn-login {
     height: 40px;
     border-radius: 15px;
     justify-content: center;
+    padding-top: 8px;
     align-items: center;
     color: #fff;
     border: #fff 1px solid;
-    padding-top: 3.5%;
     background: linear-gradient(to bottom, hsla(234, 88%, 32%, 0.973), #004e92);
     cursor: pointer;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 
