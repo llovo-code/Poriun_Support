@@ -1,8 +1,10 @@
 /*=========== NAVBAR ============*/
 
+
+/* 
 .navbar {
     height: 65px;
-}
+} */
 
 .fondo-navbar {
     background: #000428;
@@ -11,6 +13,10 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, hsla(234, 100%, 8%, 0.973), #004e92);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav ul li {
+    margin-top: 0px !important;
 }
 
 nav a img {
@@ -636,7 +642,8 @@ li span {
 
 footer {
     background: linear-gradient(to bottom, #004e92 0%, #000428 100%);
-    bottom: 0px;
+    bottom: 0px !important;
+    margin-bottom: 0px;
 }
 
 #footerText {

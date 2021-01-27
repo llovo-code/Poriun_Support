@@ -22,6 +22,7 @@ app.engine('.hbs', expresshbs({
 
 //routers
 app.use(require('./routes/index.js'));
+app.use(require('./routes/index.js'));
 
 
 //static files
