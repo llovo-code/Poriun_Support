@@ -2,8 +2,8 @@ const express = require('express')
 const routes = express.Router();
 
 
-routes.get('/', (req, res) => {
-    res.render('index', {
+routes.get('/', async(req, res) => {
+    res.render('index.hbs', {
         title: 'Poriun Español'
     });
 });

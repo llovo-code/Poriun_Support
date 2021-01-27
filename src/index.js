@@ -1,14 +1,23 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const hbs = require('hbs');
-
+const expresshbs = require('express-handlebars');
 
 //setting 
-hbs.registerPartials(path.join(__dirname, 'views/partials'));
+
+
+
+///hbs.registerPartials(path.join(__dirname, 'views/partials'));
 app.set('port', process.env.PORT || 3000);
-app.set('view engine', 'hbs');
+app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'views'));
+app.engine('.hbs', expresshbs({
+    defaultLayout: 'main',
+    layoutsDir: path.join(app.get('views'), 'layouts'),
+    partialsDir: path.join(app.get('views'), 'partials'),
+    extname: '.hbs',
+    helpers: require('./lib/helpers')
+}));
 
 
 //routers
