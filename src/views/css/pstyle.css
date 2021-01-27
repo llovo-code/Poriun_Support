@@ -374,7 +374,7 @@ h1 {
 .h2Count {
     position: relative;
     padding-top: 40px;
-    font-size: 3em;
+    font-size: 4em;
     letter-spacing: 10px;
     color: #071b49;
     text-transform: uppercase;
@@ -437,7 +437,7 @@ li {
 
 li span {
     display: block;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .message {
@@ -462,7 +462,7 @@ li span {
         padding: .75rem;
     }
     li span {
-        font-size: 3.375rem;
+        font-size: 2rem;
     }
 }
 
