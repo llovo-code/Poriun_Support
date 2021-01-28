@@ -1033,3 +1033,43 @@ footer .rotate:hover {
 .foot-lnkLogin {
     text-align: center;
 }
+
+
+/*Seccion Contactanos*/
+
+.bodyContact {
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.columna1Contact {
+    padding-top: 3rem;
+    margin: 0;
+    text-align: justify;
+    color: #ffffff;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+    /* fallback */
+    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/fondoLogin.png');
+}
+
+.formContact {
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+.btnContact {
+    background: #1161ee;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 3rem;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, rgba(6, 20, 180, 0.815) 0%, hsl(221, 58%, 47%)100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
