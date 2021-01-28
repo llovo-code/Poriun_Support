@@ -13,4 +13,18 @@ routes.get('/login', (req, res) => {
     res.render('links/login');
 });
 
+routes.get('/download', (req, res) => {
+    res.render('links/download');
+});
+
+routes.get('/about', (req, res) => {
+    res.render('links/about');
+});
+
+routes.get('/contact', (req, res) => {
+    res.render('links/contact');
+});
+
+
+
 module.exports = routes;
