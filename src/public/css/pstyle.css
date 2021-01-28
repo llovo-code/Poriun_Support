@@ -511,15 +511,15 @@ h1 {
     hyphens: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .h2Count {
-        font-size: 2em;
+        font-size: 1.98em;
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 998px) {
     .h2Count {
-        font-size: 1.9em;
+        font-size: 1.98em;
     }
 }
 
@@ -578,26 +578,23 @@ li span {
     padding: 0 .25rem;
 }
 
-@media all and (max-width: 768px) {
-    h1 {
-        font-size: 1.5rem;
-    }
+@media all and (max-width: 780px) {
     li {
-        font-size: 1.125rem;
+        font-size: 1.12rem;
         padding: .75rem;
     }
     li span {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 991px) {
     li {
-        font-size: 1.125rem;
+        font-size: 1rem;
         padding: .75rem;
     }
     li span {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 
