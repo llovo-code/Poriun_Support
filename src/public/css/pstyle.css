@@ -519,7 +519,13 @@ h1 {
 
 @media screen and (max-width: 780px) {
     .h2Count {
-        font-size: 1.9em;
+        font-size: 1.98em;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .h2Count {
+        font-size: 1.98em;
     }
 }
 
@@ -580,24 +586,34 @@ li span {
 
 @media all and (max-width: 768px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     li {
         font-size: 1.125rem;
         padding: .75rem;
     }
     li span {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
 @media all and (max-width: 780px) {
     li {
-        font-size: 1.125rem;
+        font-size: 1.12rem;
         padding: .75rem;
     }
     li span {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 991) {
+    li {
+        font-size: 1rem;
+        padding: .75rem;
+    }
+    li span {
+        font-size: 1.4rem;
     }
 }
 
