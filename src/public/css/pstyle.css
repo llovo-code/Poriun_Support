@@ -88,12 +88,12 @@ nav div ul li a .btn-login {
     /*background: -webkit-linear-gradient(to top, hsla(234, 100%, 8%, 0.788), hsla(208, 100%, 29%, 0.137)), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');*/
     /* Chrome 10-25, Safari 5.1-6 */
     /*background: linear-gradient(to top, hsla(234, 100%, 8%, 0.788), hsla(208, 100%, 29%, 0.137)), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');*/
-    background-attachment: scroll;
+    background-attachment: fixed;
     justify-content: center;
     background-size: cover;
-    background-image: url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-image: url('../images/blockchain2.png');
     /* fallback */
-    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/blockchain2.png');
 }
 
 .header-hero-content {
@@ -521,6 +521,12 @@ h1 {
     }
 }
 
+@media screen and (max-width: 780px) {
+    .h2Count {
+        font-size: 1.9em;
+    }
+}
+
 @keyframes animate {
     0%,
     18%,
@@ -586,6 +592,16 @@ li span {
     }
     li span {
         font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 780px) {
+    li {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+    li span {
+        font-size: 1.5rem;
     }
 }
 
@@ -822,14 +838,22 @@ footer .rotate:hover {
     height: min-content;
     margin: 0;
     color: #6a6f8c;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(2, 8, 61, 0.555)70%, hsl(221, 60%, 14%)100%), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background: #000428;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+    /* fallback */
+    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/fondoLogin.png');
 }
 
+
+/*
 *,
  :after,
  :before {
     box-sizing: border-box;
 }
+*/
 
 .clearfix:after,
 .clearfix:before {
@@ -854,7 +878,7 @@ footer .rotate:hover {
     max-width: 525px;
     min-height: 670px;
     position: relative;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .login-html {
@@ -866,9 +890,9 @@ footer .rotate:hover {
     background-attachment: fixed;
     justify-content: center;
     background-size: cover;
-    background-image: url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-image: url('../images/blockchain2.png');
     /* fallback */
-    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/blockchain2.png');
 }
 
 .login-html .sign-in-htm,
