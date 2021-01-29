@@ -511,12 +511,6 @@ h1 {
     hyphens: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .h2Count {
-        font-size: 2em;
-    }
-}
-
 @media screen and (max-width: 780px) {
     .h2Count {
         font-size: 1.98em;
@@ -584,19 +578,6 @@ li span {
     padding: 0 .25rem;
 }
 
-@media all and (max-width: 768px) {
-    h1 {
-        font-size: 1.7rem;
-    }
-    li {
-        font-size: 1.125rem;
-        padding: .75rem;
-    }
-    li span {
-        font-size: 1.6rem;
-    }
-}
-
 @media all and (max-width: 780px) {
     li {
         font-size: 1.12rem;
@@ -607,7 +588,7 @@ li span {
     }
 }
 
-@media all and (max-width: 991) {
+@media all and (max-width: 998px) {
     li {
         font-size: 1rem;
         padding: .75rem;
@@ -1051,4 +1032,76 @@ footer .rotate:hover {
 
 .foot-lnkLogin {
     text-align: center;
+}
+
+
+/*Seccion Contactanos*/
+
+.bodyContact {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.columna1Contact {
+    padding-top: 3rem;
+    margin: 0;
+    text-align: justify;
+    color: #ffffff;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+    /* fallback */
+    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/fondoLogin.png');
+}
+
+.formContact {
+    text-align: left;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 574px) {
+    .form-control {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.btnContact {
+    background: #1161ee;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 3rem;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, rgba(6, 20, 180, 0.815) 0%, hsl(221, 58%, 47%)100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.columna2Contact {
+    width: 100%;
+    margin-top: 5rem;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(255, 255, 255);
+}
+
+.pCardContactTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pCardContact {
+    font-size: 1rem;
+}
+
+.aContactLink {
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    color: blue;
 }
