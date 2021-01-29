@@ -27,7 +27,7 @@ nav .collapse div .navbar-nav a .login {
     font-size: 25px;
     /*text-align: center;*/
     margin-top: 12px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 nav div a .btn-login {
@@ -44,18 +44,20 @@ nav div a .btn-login {
 
 .redondo {
     display: auto;
+    margin-left: 30px!important;
     width: 200px;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 25px;
     justify-content: center;
     padding-top: 8px;
     align-items: center;
-    color: #fff;
-    border: #fff 1px solid;
-    background: linear-gradient(to bottom, hsla(234, 88%, 32%, 0.973), #004e92);
+    color: #fff!important;
+    background: #1161ee;
+    /*border: #fff 1px solid;*/
+    background-image: linear-gradient(to bottom, rgba(6, 20, 180, 0.815) 0%, hsl(221, 58%, 47%)100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     margin-top: 10px;
-    margin-right: 20px;
 }
 
 
@@ -746,7 +748,7 @@ li span {
 /* Footer */
 
 footer {
-    background: linear-gradient(to bottom, #004e92 0%, #000428 100%);
+    background: rgb(30, 64, 145);
     bottom: 0px !important;
     margin-bottom: 0px;
 }
@@ -838,15 +840,6 @@ footer .rotate:hover {
     /* fallback */
     background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/fondoLogin.png');
 }
-
-
-/*
-*,
- :after,
- :before {
-    box-sizing: border-box;
-}
-*/
 
 .clearfix:after,
 .clearfix:before {
@@ -1089,6 +1082,11 @@ footer .rotate:hover {
     text-align: justify;
     color: rgba(255, 255, 255, 0.2);
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.col2Container {
+    margin-top: 50px;
 }
 
 .pCardContactTitle {
