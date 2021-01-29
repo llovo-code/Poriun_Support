@@ -69,78 +69,111 @@ function Countdown() {
 
 $(document).ready(
     function() {
-        mouseoutcards();
-        mouseovercards();
+        // mouseoutcards();
+        // mouseovercards();
         Countdown();
-
+        mouse_hover_out_cards()
     }
 );
 
 
-function mouseoutcards() {
-    $('.transition').on('mouseout', function() {
+function mouse_hover_out_cards() {
 
-        var img = $(this).find('img');
-        //alert(img.length);
-        for (var i = 0; i < img.length; i++) {
-            if (i != 0) {
-                $(this).find('img').eq(i).hide();
-            } else {
-                $(this).find('img').eq(i).attr('src', 'images/seguridad-blanco.png');
-            }
 
-        }
-        $(this).find('img').css({
-            'height': '50px',
-            'width': '50px',
-            'margin-left': '-20px',
+    $('.transition').hover(() => {
 
+
+        $('#transicon').css('visibility', 'hidden')
+        $('.card').fadeIn('slow', () => {
+            $(this).show();
         });
-        $(this).find('.card').css({
-            'background': '#ffffff00',
-            'border': '0px',
-            'box-shadow': 'none'
+    }, () => {
+
+        $('#transicon').css('visibility', 'visible')
+        $('.card').fadeOut('slow', () => {
+            $(this).hide();
         });
-        $(this).css('height', '150px');
-        $(this).find('p').css('display', 'none');
     });
+
+
+
+
+    // $(window).resize(function() {
+    //     vetana = $(window).width();
+
+    //     console.log(`Ventana  width `, ventana);
+    //     let height_v;
+    //     if (ventana < 576) {
+    //         height_v = 930;
+    //     } else if (ventana >= 576 && ventana <= 767) {
+    //         height_v = 930
+    //     } else if (ventana >= 768 && ventana <= 992) {
+    //         height_v = 600
+    //     } else {
+    //         height_v = 330
+    //     }
+
+    //     $(".transition").mouseenter(function() {
+    //         $(this).animate({
+    //             height: height_v
+    //         });
+    //     }).mouseleave(function() {
+    //         $(this).animate({
+    //             height: "70"
+    //         });
+    //     });
+    //     // }
+
+
+
+
+
+    $(".transition").mouseenter(function() {
+
+        let ventana = $(window).width();
+
+        console.log(`Ventana px width `, ventana);
+        let height_v;
+        if (ventana < 576) {
+            height_v = 990;
+        } else if (ventana >= 576 && ventana <= 767) {
+            height_v = 930
+        } else if (ventana >= 768 && ventana <= 992) {
+            height_v = 360
+        } else {
+            height_v = 350
+        }
+
+
+        $(this).animate({
+            height: height_v
+        });
+    }).mouseleave(function() {
+        $(this).animate({
+            height: "40"
+        });
+    });
+    // }
+
+
+
+
+
+    // let ventana_ancho = $(window).width();
+    // console.log(ventana_ancho)
+    // let hight_V = 0;
+    // if (ventana_ancho < 576) {
+    //     hight_V = 930;
+    // } else {
+    //     hight_V = 300;
+    // }
+    //var boxHeight = $(".transition").height();
+
 
 }
 
 
-function mouseovercards() {
 
-    $('.transition').on('mouseover', function() {
-
-        $(this).css({
-            'margin-top': '0px',
-        });
-
-        var img = $(this).find('img');
-        //alert(img.length);
-        for (var i = 0; i < img.length; i++) {
-            if (i != 0) {
-                $(this).find('img').eq(i).show();
-            } else {
-                $(this).find('img').eq(i).attr('src', 'images/seguridad.png');
-            }
-        }
-
-        $(this).find('img').css({
-            'height': '50px',
-            'width': '50px',
-            'margin-left': '20px',
-            'margin-top': '20px'
-
-        });
-        $(this).find('.card').css({
-            'background': 'white',
-            'border': '0px'
-        });
-        $(this).css('height', 'auto');
-        $(this).find('p').css('display', 'block');
-    });
-}
 
 
 $(function() {

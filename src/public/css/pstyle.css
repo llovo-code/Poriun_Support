@@ -237,29 +237,61 @@ nav div a .btn-login {
 }
 
 .transition {
-    width: 100px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     background-color: rgb(37, 66, 136);
     /* background: #000428;
     background: -webkit- linear-gradient(to top, rgba(2, 6, 46, 0.534) 0%, rgba(4, 17, 131, 0.555)20%, rgb(37, 66, 136)100%);
     /* Chrome 10-25, Safari 5.1-6 */
     /* background-image: linear-gradient(to top, rgba(2, 6, 46, 0.534) 0%, rgba(4, 17, 131, 0.555)20%, rgb(37, 66, 136)100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    transition: width 2s, height 2s, margin 2s;
+    /*transition: width 0.5s, height 1s, margin 2s;*/
     margin: 0px auto 0;
     margin-top: opx !important;
     overflow: hidden;
 }
 
+@media(max-width:576) {
+    .transition {
+        height: 990px;
+    }
+}
+
+@media(max-width:768) {
+    .transition {
+        height: 930px;
+    }
+}
+
+@media(max-width:992) {
+    .transition {
+        height: 350px;
+    }
+}
+
+.transition #transicon {
+    visibility: hidden;
+}
+
+
+/*
 .transition:hover {
     width: 100%;
     height: 370px;
     margin: 0 auto;
     overflow: hidden;
 }
+*/
 
 .transition p {
-    display: none;
+    display: block;
+}
+
+.transition .card img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .fading {
@@ -452,6 +484,28 @@ div.h4 {
 /* Fin Ciruclo*/
 
 
+/* Inicio Socios*/
+
+.sociosFondo {
+    /*background-color: rgb(37, 66, 136);*/
+    background-image: linear-gradient(to bottom, hsl(222, 57%, 34%)0%, rgba(4, 17, 131, 0.918)40%, hsl(222, 90%, 16%)100%)
+}
+
+.containerSocios {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.transformPNG {
+    width: 100%;
+    height: max-content;
+    filter: brightness(1000%);
+}
+
+
+/* Fin Socios */
+
+
 /* Inicio Countdown*/
 
 svg {
@@ -640,9 +694,10 @@ li span {
 
 .blue-bg {
     overflow: hidden;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     color: #fff;
     height: 100%;
+    background-image: linear-gradient(to bottom, hsl(222, 90%, 16%)0%, rgba(4, 17, 131, 0.555)60%, hsl(222, 57%, 34%)100%), url('https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
 }
 
 .circle {
