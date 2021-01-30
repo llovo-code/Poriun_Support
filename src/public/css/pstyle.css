@@ -91,7 +91,7 @@ nav div a .btn-login {
     background-size: cover;
     background-image: url('../images/blockchain2.png');
     /* fallback */
-    background-image: linear-gradient(to bottom, rgba(2, 6, 46, 0.7) 0%, rgba(4, 17, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/blockchain2.png');
+    background-image: linear-gradient(to bottom, rgba(4, 90, 250, 0.7) 0%, rgba(4, 59, 131, 0.555)70%, hsl(222, 57%, 34%)100%), url('../images/blockchain2.png');
 }
 
 .header-hero-content {
@@ -501,7 +501,7 @@ h1 {
     text-transform: uppercase;
     width: auto;
     text-align: center;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0008); */
     line-height: 0.7em;
     outline: none;
     animation: animate 5s linear infinite;
