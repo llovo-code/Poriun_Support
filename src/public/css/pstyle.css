@@ -1088,9 +1088,9 @@ footer .rotate:hover {
     justify-content: center;
     align-items: center;
     color: #fff;
-    border: #fff 3px solid;
     background: linear-gradient(to bottom, hsla(234, 88%, 32%, 0.973), #004e92);
     cursor: pointer;
+    padding-bottom: 5px;
 }
 
 
