@@ -576,12 +576,6 @@ svg {
     background-position: center;
 }
 
-h1 {
-    font-weight: normal;
-    letter-spacing: .125rem;
-    text-transform: uppercase;
-}
-
 .h2Count {
     position: relative;
     padding-top: 40px;
@@ -643,7 +637,7 @@ h1 {
     }
 }
 
-li {
+#countdown li {
     display: inline-block;
     font-size: 1.5em;
     list-style-type: none;
@@ -652,7 +646,7 @@ li {
     margin-top: 30px;
 }
 
-li span {
+#countdown li span {
     display: block;
     font-size: 3.5rem;
 }
@@ -671,21 +665,21 @@ li span {
 }
 
 @media all and (max-width: 780px) {
-    li {
+    #countdown li {
         font-size: 1.12rem;
         padding: .75rem;
     }
-    li span {
+    #countdown li span {
         font-size: 1.3rem;
     }
 }
 
 @media all and (max-width: 998px) {
-    li {
+    #countdown li {
         font-size: 1rem;
         padding: .75rem;
     }
-    li span {
+    #countdown li span {
         font-size: 1.4rem;
     }
 }
@@ -1193,4 +1187,30 @@ footer .rotate:hover {
     padding-left: 0.5rem;
     font-size: 1rem;
     color: blue;
+}
+
+
+/*Legal */
+
+.bglegal {
+    background-color: rgb(224, 232, 243);
+}
+
+.containerLegal {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+
+/*.align-text-on-div {}*/
+
+#privacidad_politica li {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    content: "•";
+    color: black;
 }
