@@ -80,55 +80,12 @@ $(document).ready(
 function mouse_hover_out_cards() {
 
 
-    $('.transition').hover(() => {
-
+    $('.transition').mouseenter(() => {
 
         $('#transicon').css('visibility', 'hidden')
         $('.card').fadeIn('slow', () => {
             $(this).show();
         });
-    }, () => {
-
-        $('#transicon').css('visibility', 'visible')
-        $('.card').fadeOut('slow', () => {
-            $(this).hide();
-        });
-    });
-
-
-
-
-    // $(window).resize(function() {
-    //     vetana = $(window).width();
-
-    //     console.log(`Ventana  width `, ventana);
-    //     let height_v;
-    //     if (ventana < 576) {
-    //         height_v = 930;
-    //     } else if (ventana >= 576 && ventana <= 767) {
-    //         height_v = 930
-    //     } else if (ventana >= 768 && ventana <= 992) {
-    //         height_v = 600
-    //     } else {
-    //         height_v = 330
-    //     }
-
-    //     $(".transition").mouseenter(function() {
-    //         $(this).animate({
-    //             height: height_v
-    //         });
-    //     }).mouseleave(function() {
-    //         $(this).animate({
-    //             height: "70"
-    //         });
-    //     });
-    //     // }
-
-
-
-
-
-    $(".transition").mouseenter(function() {
 
         let ventana = $(window).width();
 
@@ -147,17 +104,83 @@ function mouse_hover_out_cards() {
 
         $(this).animate({
             height: height_v
+        }, 1500);
+
+    }).mouseleave(() => {
+
+        $('#transicon').css('visibility', 'visible')
+        $('.card').fadeOut('slow', () => {
+            $(this).hide();
         });
-    }).mouseleave(function() {
+
         $(this).animate({
             height: "40"
-        });
+        }, 1500);
+
     });
+
+
+
+    // $('.transition').hover(() => {
+    //     $('#transicon').css('visibility', 'hidden')
+    //     $('.card').fadeIn('slow', () => {
+    //         $(this).show();
+    //     });
+    //     $(this).mouseenter(function() {
+    //         let ventana = $(window).width();
+    //         console.log(`Ventana px width `, ventana);
+    //         let height_v;
+    //         if (ventana < 576) {
+    //             height_v = 990;
+    //         } else if (ventana >= 576 && ventana <= 767) {
+    //             height_v = 930
+    //         } else if (ventana >= 768 && ventana <= 992) {
+    //             height_v = 360
+    //         } else {
+    //             height_v = 350
+    //         }
+    //         $(this).animate({
+    //             height: height_v
+    //         }, 'slow');
+    //     })
+    // }, () => {
+    //     $('#transicon').css('visibility', 'visible')
+    //     $('.card').fadeOut('slow', () => {
+    //         $(this).hide();
+    //     });
+    //     $(this).mouseleave(function() {
+    //         $(this).animate({
+    //             height: "40"
+    //         }, 'slow');
+    //     });
+    // });
+
+    // $(window).resize(function() {
+    //     vetana = $(window).width();
+
+    //     console.log(`Ventana  width `, ventana);
+    //     let height_v;
+    //     if (ventana < 576) {
+    //         height_v = 930;
+    //     } else if (ventana >= 576 && ventana <= 767) {
+    //         height_v = 930
+    //     } else if (ventana >= 768 && ventana <= 992) {
+    //         height_v = 600
+    //     } else {
+    //         height_v = 330
+    //     }
+    //     $(".transition").mouseenter(function() {
+    //         $(this).animate({
+    //             height: height_v
+    //         });
+    //     }).mouseleave(function() {
+    //         $(this).animate({
+    //             height: "70"
+    //         });
+    //     });
+    //     // }
+
     // }
-
-
-
-
 
     // let ventana_ancho = $(window).width();
     // console.log(ventana_ancho)
