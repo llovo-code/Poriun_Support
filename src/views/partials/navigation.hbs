@@ -1,32 +1,47 @@
-  <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark sticky-top fondo-navbar scrolling-navbar">
-        <div class="container">
-            <button class="navigation navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPagina " aria-controls="navbarPagina" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand text-white animate__animated animate__swing animate__delay-1-1s" href="/">
-                <img src="icons/logo-bpr.png" alt="">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarPagina">
-                <div class="navbar-nav ml-lg-auto mr-auto">
-                    <a class="nav-item ml-lg-5 nav-link active" href="/">Inicio</a>
-                    <a class="nav-item ml-lg-5 nav-link " href="/staff">Equipo</a>
-                    <a class="nav-item ml-lg-5 nav-link " href="/contact">Contactanos</a>
-                    <a class="nav-item ml-lg-5 nav-link " href="/download">Descarga</a>
-                    <a class="nav-item ml-lg-5 nav-link " href="/about">Acerca</a>
-                </div>
-                <div class="navbar-nav d-flex flex-row justify-content-center">
-                    <div class="navbar-nav">
-                        <div class="nav-item">
-                            <a href="/login" class=" nav-link waves-effect waves-light">
-                                <i class="far fa-user-circle fa-lg login"></i>
-                            </a>
-                        </div>
-                        <div class="nav-tiem">
-                            <a href="/login" role="button" class="redondo ml-lg-auto nav-link">Obtener BPR</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+<nav class="navbar navbar-expand-lg cusBgNav">
+    <div class="container-fluid ">
+        <a class="navbar-brand cusColorNavItems" href="#">Poriun</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active cusColorNavItems" aria-current="page" href="#">Incio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link cusColorNavItems" href="/download">Descarga</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle cusColorNavItems" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Comunidad Poriun</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                        <li><a class="dropdown-item" href="/staff">Nuestro equipo</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/files/white-paper-ES.pdf">White Paper</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle cusColorNavItems" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Acerca de</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/">Funciones y especificaciones</a></li>
+                        <li><a class="dropdown-item" href="/">Preguntas Frecuentes</a></li>
+                        <li><a class="dropdown-item" href="/">Estado de Airdrop</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle cusColorNavItems" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Legal</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/terms-and-condition">Terminos y Condiciones</a></li>
+                        <li><a class="dropdown-item" href="/privacy-policy">Politica de Privacidad</a></li>
+                        <li><a class="dropdown-item" href="/disclaimer">Descargo de Responsabilidad</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link cusColorNavItems" href="/contact">Contactanos</a></li>
+            </ul>
+          <form class="d-flex cusBtnNav">
+            <button class="btn" type="submit" href="/login">Obtener BPR</button>
+          </form>
         </div>
-    </nav>
+    </div>
+</nav>
