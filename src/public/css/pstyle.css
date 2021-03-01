@@ -316,6 +316,64 @@ div.h4 {
 }
 
 
+/*Seccion Staff*/
+
+.seccionStaffImpar {
+    width: auto;
+    height: max-content;
+    overflow: hidden;
+}
+
+.h4Staff {
+    text-align: center;
+    color: rgb(32, 30, 30)
+}
+
+.h2Staff {
+    text-align: center;
+    padding-top: 50px;
+    color: black
+}
+
+.h1StaffSection {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.iStaff {
+    padding-top: 50px;
+}
+
+@media (max-width: 540px) {
+    .imgStaff {
+        padding-bottom: 30px;
+    }
+    .pStaff {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.pStaff {
+    padding: 40px;
+    text-align: justify;
+    color: black;
+}
+
+.divStaffColor {
+    background-color: rgb(224, 232, 243);
+    width: 100%;
+    height: 100%;
+}
+
+.divStaffNoColor {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+
 /*Seccion Contactanos*/
 
 .bodyContact {
@@ -492,6 +550,10 @@ div.h4 {
 
 
 /*Navbar*/
+
+nav {
+    color: white;
+}
 
 .cusBgNav {
     background-color: rgb(30, 64, 145);
