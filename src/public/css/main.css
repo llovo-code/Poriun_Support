@@ -1693,5 +1693,32 @@ section.T .section-title {
 
 .dotpdot li::before {
     counter-increment: dotpdot;
-    content: "1." counter(dotpdot) " ";
+    content: "-" " ";
+}
+
+
+/* FAQ */
+
+.collapsible {
+    background-color: white;
+    color: #1d4091;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: #1d4091;
+    color: white;
+}
+
+.content2 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
