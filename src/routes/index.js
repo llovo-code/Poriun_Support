@@ -25,7 +25,7 @@ routes.get('/staff', (req, res) => {
     res.render('home/staff');
 })
 
-routes.get('/privacy-policy', (req, res) => {
+routes.get('/privacity-policity', (req, res) => {
     res.render('home/privacy-policy');
 })
 

@@ -1,337 +1,424 @@
-{{> navigation }}
-<section>
-    <div id="home" class="header-hero">
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+        <!-- Navbar Start -->
+        {{> navigation }}
+        <!-- Navbar End -->
+
+        <!-- Hero Area Start -->
+        <div id="hero-area" class="hero-area-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                        <div class="contents">
+                            <h2 class="head-title">Bienvenido a Poriun<br>Frase emotiva y comercial</h2>
+                            <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat!</p>
+                            <div class="header-button">
+                                <a href="/download" class="btn btn-common2">Descargalo ya</i></a>
+                                <a href="https://esporiun.herokuapp.com/files/white-paper-ES.pdf" class="btn btn-border2 video-popup">White Paper </i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <div class="intro-img">
+                            <br>
+                            <img class="img-fluid" src="img/intro-mobile.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Informacion Section start -->
+    <div class="about-area section-padding bg-white">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="header-hero-content">
-                        <h1
-                            class="header-sub-title animate__animated animate__fadeInUp animate__delay-0-3s animate__animated.animate__speed_1-3s">
-                            Poriun</h3>
-                            <h2
-                                class="header-title animate__animated animate__fadeInUp animate__delay-0-5s animate__animated.animate__speed_1-3s">
-                                Coin</h2>
-                            <p
-                                class="text animate__animated animate__fadeInUp animate__delay-0-8s animate__animated.animate__speed_1-3s">
-                                Donde el trabajo y la diversión se juntan.</p>
-                            <a href="/download" role="button"
-                                class="btn btn-outline-light animate__animated animate__fadeInUp animate__delay-1-1s animate__animated.animate__speed_1-3s"
-                                style="z-index: 1;">Descargar
-                                Wallet</a>
-                            <a href="/login"  role="button"
-                                class="btn btn-outline-light animate__animated animate__fadeInUp animate__delay-1-1s animate__animated.animate__speed_1-3s"
-                                style="z-index: 1;">Registrarse</a>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-xs-12 info">
+                    <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+                        <div>
+                            <div class="site-heading">
+                                <p class="mb-3">¿Que es Poriun?</p>
+                                <h2 class="section-title">Privado, Instantaneo y Seguro</h2>
+                            </div>
+                            <div class="content">
+                                <p style="text-align:justify;">
+                                    Poriun se basa en la tecnología Proof of Stake (PoS) y es una criptomoneda descentralizada basada en la cadena de bloques, de código abierto y con licencia del MIT, centrada en lograr la fungibilidad, la privacidad de las transacciones, la gobernanza
+                                    de la comunidad, la escalabilidad de la red y la utilización en el mundo real para convertirse en una de las monedas digitales en línea más avanzadas y aceptadas a nivel mundial.
+                                </p>
+                                <a href="#acerca" class="btn btn-common mt-3">Conoce mas</a>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+                    <br>
+                    <br>
+                    <img class="img-fluid" src="https://poriun.com/wp-content/uploads/2018/06/graph-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Informacion Section End -->
+
+    <!-- caracteristicas Section Start -->
+    <section id="" class="section-padding bg-gray">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">¿Qué hace especial a Poriun?</h2>
+                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+            </div>
+            <div class="row">
+                <!-- Services item -->
+                <div class="col-md-6 col-lg-4 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="icon">
+                            <i class="lni-lock"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">Seguridad</a></h3>
+                            <p style="text-align: justify;">BPR implementará un nuevo protocolo de privacidad (ZcashSapling) que proporcionará mayor privacidad, rendimiento y facilidad de uso en comparación con nuestras soluciones anteriores.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services item -->
+                <div class="col-md-6 col-lg-4 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
+                        <div class="icon">
+                            <i class="lni lni-alarm-clock"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">Transacciones Rapidas</a></h3>
+                            <p style="text-align: justify;">En la red Bitcoin, las transacciones requieren 10 minutos para su confirmación. En cambio, en Poriun las transacciones se confirman en 60 segundos y mayormente son instantáneas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services item -->
+                <div class="col-md-6 col-lg-4 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+                        <div class="icon">
+                            <i class="lni lni-users"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">Retribucion</a></h3>
+                            <p style="text-align: justify;">Recompensa entregada a los propietarios de BPR. Masternodes y BPR staking. Debido al gran tamaño de nuestra red, nuestra tasa de devolución de recompensas es muy consistente y altamente fiable.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services item -->
+                <div class="col-md-6 col-lg-4 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
+                        <div class="icon">
+                            <i class="lni-layers"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">SwiftX</a></h3>
+                            <p style="text-align: justify;">Las transacciones SwiftX se confirman y se pueden gastar en cuestión de segundos. Las transacciones SwiftX están garantizadas por la red de masternodes, sin necesidad de esperar a múltiples confirmaciones para confiar en la
+                                validez de la transacción.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services item -->
+                <div class="col-md-6 col-lg-4 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
+                        <div class="icon">
+                            <i class="lni lni-wallet"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">Masternodes</a></h3>
+                            <p style="text-align: justify;">Se trata de nodos incentivados que reciben recompensas en función de su disponibilidad y su capacidad para ofrecer servicios de red de forma descentralizada y sin confianza. La gestión de un masternode requiere 10.000 BPR de
+                                garantía durante el tiempo que se decida gestionar el masternode y permite al propietario votar sobre el presupuesto y las propuestas de desarrollo. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services item -->
+                <div class="col-md-6 col-lg-4 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
+                        <div class="icon">
+                            <i class="lni lni-code"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">Código base</a></h3>
+                            <p style="text-align: justify;">La estructura PoS utilizada elimina la edad de las monedas, lo que significa que para sacar el máximo provecho de su apuesta debe mantener su cartera abierta en todo momento, lo que resulta en más nodos constantemente disponibles,
+                                fortaleciendo la red. Se acabaron los usuarios que abren su monedero una o dos veces al mes durante unos minutos y son recompensados por igual que los que tienen su monedero disponible las 24 horas del día.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- caracteristicas End -->
+
+
+
+
+    <!-- Team Section Start -->
+    
+    <!-- Team Section End -->
+
+    <!-- Pricing section Start -->
+    <section id="acerca" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Mas Informacion</h2>
+                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+                <p class="mb-3" style="text-align: center;">Poriun es la prueba de participación de la criptomoneda 3.0. Basada en la versión 0.10 o superior del código base de Bitcoin.</p>
+            </div>
+            <!-- Tabs -->
+            <section id="tabs" class="sectionT">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <div
-                                class="header-hero-image text-center animate__animated animate__fadeInUp animate__delay-1-4s animate__animated.animate__speed_1-3s">
-                                <img src="images/logo.png" alt="hero">
+                        <div class="col-xs-12 ">
+                            <nav>
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Somos un equipo.</a>
+                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Declaración de monedas</a>
+                                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">¿Cómo poner en marcha la BPR?</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-6 col-sm-12">
+                                            <br>
+                                            <p style="text-align: justify;">La BPR es un sí, una tecnología, pero también es mucho más que trozos de código y elaborados algoritmos. Es una comunidad. Es una red de individuos que crece orgánicamente y que reúne un conjunto de principios
+                                                básicos, creencias, visiones e ideas, colaborando juntos para desarrollar PORIUN.</p>
+                                            <br>
+                                            <p style="text-align: justify;">Al fin y al cabo, somos un colectivo de seres humanos que se reúnen y aportan sus distintas energías, recursos, talentos y visiones. Algunos de nosotros somos fenomenales codificadores. Otros son expertos gestores
+                                                de proyectos. Algunos son nuevos en el mundo de las criptomonedas, mientras que otros han estado en el mundo de las criptomonedas desde los albores del bitcoin (incluida la persona involucrada en la histórica
+                                                transacción de la "bitcoin pizza").</p>
+
+                                        </div>
+                                        <div class="col-md-6 col-lg-6 col-sm-12">
+                                            <br>
+                                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/SSo_EIwHSd4?html5=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <p style="text-align: justify;">Dicho esto, hay algunas personas que estuvieron en el núcleo del proyecto y, a partir de ahí, la comunidad creció rápidamente. Como recordatorio, a menudo en los ámbitos de la tecnología y la criptografía, las personas
+                                        son conocidas por sus "alias" (piense en apodos) más que por sus propios nombres.</p>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="row">
+                                        <p style="text-align: justify;">La privacidad no es negociable, es un derecho humano básico. La libertad lo es todo. La tecnología avanza, la gobernanza también debe hacerlo. La privacidad permite la libertad de compartir lo que desees con todos,
+                                            pero también la libertad de restringir quién ve tu información. Creemos que esto es la elección de cada persona. La gobernanza se utiliza para promover los objetivos y el desarrollo de los fondos. Los daos son
+                                            intocables. Únete a nosotros cuando quieras, porque quieras, y, por el tiempo que quieras. Exploremos todas las opciones juntos. Tú eres importante para nosotros, es hora de que aprovechemos todo tu potencial.</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                    <div class="row">
+                                        <p style="text-align: justify;">El BPR puede ser apostado en caliente simplemente instalando el monedero principal de escritorio, depositando las monedas en el monedero y desbloqueando el monedero en el modo de sólo apostar. Las monedas depositadas
+                                            comenzarán a apostar después de haber obtenido 600 confirmaciones. Con el staking en host, el monedero con las monedas debe mantenerse en línea y funcionando para que el staking funcione.</p>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <p style="text-align: justify;">BPR puede ser apostado en frío instalando el monedero principal de escritorio, depositando monedas en el monedero, y delegando la apuesta de esas monedas desde la pestaña de apuesta en frío a una dirección de apuesta
+                                            en frío. Esa dirección puede ser tu propio monedero de cold staking, o el de un proveedor de servicios de cold staking de terceros. Una vez delegado, el monedero que contiene las monedas puede mantenerse fuera
+                                            de línea, mientras sigue recibiendo recompensas a la dirección de su monedero fuera de línea.</p>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="header-hero-content animate__animated animate__bounce ">
-
-                        <h2 class="h2Count ">PREVENTA</h2>
-
-                        <div id="countdown">
-                            <ul>
-                                <li><span id="days"></span>days</li>
-                                <li><span id="hours"></span>Hours</li>
-                                <li><span id="minutes"></span>Minutes</li>
-                                <li><span id="seconds"></span>Seconds</li>
-                            </ul>
-                        </div>
-                        <div class="message">
-                            <div id="content">
-                                <span class="emoji">🥳</span>
-                                <span class="emoji">🎉</span>
-                                <span class="emoji">🎂</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-            <div id="particles-js" class="particles"></div>
+            </section>
+            <!-- ./Tabs -->
         </div>
-    </div>
-</section>
-<!-- Banner Fin -->
+    </section>
+    <!-- Tabs Section End -->
 
-
-<section id="cardsJS">
-
-    <div class="transition animate__animated animate__animated.animate__speed_1-3s" style="align-items: center;">
-       
-        <div class="row">
-            <div class="col-md-12  col-sm-12  col-xs-12 " style="display: flex; justify-content: center; align-items: center;">
-                <i class="fas fa-arrow-down fa-3x  " style="color:#FFFF; " id="transicon"></i>
-               
+    <!-- Descarga Section Start-->
+    <section id="legal" class="section-padding bg-gray">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Terminos legales</h2>
+                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 20px;">
-            <div class="col mb-3">
-                <div class="card h-100">
-                    <img src="images/seguridad.png" alt="block">
-                    <div class="card-body">
-                        <p class="card-text" style="color: rgb(37, 66, 136); text-align: left;">SEGURIDAD</p>
-                        <p class="card-text" style="color: black; text-align: justify;">BPR implementará un nuevo
-                            protocolo de privacidad (ZcashSapling) que proporcionará mayor privacidad, rendimiento y
-                            facilidad de uso en comparación con nuestras soluciones anteriores.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-3">
-                <div class="card h-100">
-                    <img src="images/transaccion.png">
-                    <div class="card-body">
-                        <p class="card-text" style="color: rgb(37, 66, 136); text-align: left;">TRANSACCIONES RÁPIDAS
-                        </p>
-                        <p class="card-text" style="color: black; text-align: justify;">En la red Bitcoin, las
-                            transacciones requieren 10 minutos para su confirmación. En cambio, en Poriun las
-                            transacciones se confirman en 60 segundos y mayormente son instantáneas</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/retribucion.png">
-                    <div class="card-body">
-                        <p class="card-text" style="color: rgb(37, 66, 136); text-align: left;">RETRIBUCIÓN</p>
-                        <p class="card-text" style="color: black; text-align: justify;">Recompensa entregada a los
-                            propietarios de BPR. Masternodes y BPR staking. Debido al gran tamaño de nuestra red,
-                            nuestra tasa de devolución de recompensas es muy consistente y altamente fiable.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Seccion de Informacion Poriun  Final -->
-
-
-<!--informacion-->
-<section style="background-color: rgb(37, 66, 136); ">
-    <div class="container txtInfoColor imgInformacion">
-        <div class="row justify-content-center" style="text-align: justify; padding: 50px; ">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <p>
-                <h2>Privado, Instantaneo y Seguro </h2>
-                </p>
-                <p style="text-align: justify; ">Poriun se basa en la tecnología Proof of Stake (PoS) y es una
-                    criptomoneda descentralizada basada en la cadena de bloques, de código abierto y con licencia del
-                    MIT, centrada en lograr la fungibilidad, la privacidad de las transacciones,
-                    la gobernanza de la comunidad, la escalabilidad de la red y la utilización en el mundo real para
-                    convertirse en una de las monedas digitales en línea más avanzadas y aceptadas a nivel mundial.</p>
-                <br>
-                <div class="row" style="text-align: center;">
-                    <div class="col">
-                        <i class="fa fa-windows fa-2x " style="color:#bbbbbf; "></i>
-                        <a href="# " style="color: white; " title>Windows</a>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-linux fa-2x" style="color:#bbbbbf; "></i>
-                        <a href="# " style="color: white; " title>Linux</a>
-                    </div>
-                    <div class="col">
-                        <i class="fa fa-apple fa-2x " style="color:#bbbbbf; "></i>
-                        <a href="#" style="color: white; " title> Mac</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <br>
-                <img src="images/graph-1.png " class="imgInformacion " alt="Image " style="padding-left: 50px; ">
-            </div>
-        </div>
-    </div>
-
-    <!--<div class="col-6 ">
-                    <div class="row ">
-                        <img src="../views/images/graph-1.png " class="imgInformacion " alt="Image " style="padding-left: 50px; ">
-                    </div>
-                </div>-->
-</section>
-
-<!-- Seccion de circulos-->
-<section class="txtInfoColor">
-    <div class="container">
-        <div class="row-12" style="text-align: center;">
-            <h2>Distribución de fichas</h2>
-            <br>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <div class="progress mx-auto" data-value='60'>
-                    <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <div
-                        class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                        <div class="h2 font-weight-bold">60<sup class="small">%</sup></div>
-                    </div>
-                </div>
-                <br>
-                <p>Venta de fichas</p>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <div class="progress mx-auto" data-value='20'>
-                    <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <div
-                        class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                        <div class="h2 font-weight-bold">20<sup class="small">%</sup></div>
-                    </div>
-                </div>
-                <br>
-                <p>Reserva del proyecto</p>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <div class="progress mx-auto" data-value='15'>
-                    <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <div
-                        class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                        <div class="h2 font-weight-bold">15<sup class="small">%</sup></div>
-                    </div>
-                </div>
-                <br>
-                <p>Fichas de equipo</p>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <div class="progress mx-auto" data-value='10'>
-                    <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-                    </span>
-                    <div
-                        class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                        <div class="h2 font-weight-bold">10<sup class="small">%</sup></div>
-                    </div>
-                </div>
-                <br>
-                <p>Asociaciones</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-{{> socios}}
-
-<!--Timeline Inicio-->
-
-<!--Timeline Inicio-->
-<div class="container-fluid blue-bg  " style="padding-top: 100px; ">
-    <div class=".containerTimeline ">
-        <h2 style="text-align: center; ">Línea de tiempo de Poriun</h2>
         <br>
         <div class="container">
-            <!--first section-->
-            <div class="row align-items-center how-it-works">
-                <div class="col-2 text-center bottom">
-                    <div class="circle">09 - 2019</div>
-                </div>
-                <div class="col-6">
-                    <h5 style="font-size:x-large;">Idea</h5>
-                    <p>Nace el deseo y la voluntad de crear una moneda digital transaccional</p>
-                </div>
-            </div>
-            <!--path between 1-2-->
-            <div class="row timeline">
-                <div class="col-2">
-                    <div class="corner top-right"></div>
-                </div>
-                <div class="col-8">
-                    <hr />
-                </div>
-                <div class="col-2">
-                    <div class="corner left-bottom"></div>
-                </div>
-            </div>
-            <!--second section-->
-            <div class="row align-items-center justify-content-end how-it-works">
-                <div class="col-6 text-right">
-                    <h5 style="font-size:x-large;">Proyecto escrito</h5>
-                    <p>El proyecto está listo para codificarse con el equipo contratado</p>
-                </div>
-                <div class="col-2 text-center full">
-                    <div class="circle">05 - 2020</div>
-                </div>
-            </div>
-            <!--path between 2-3-->
-            <div class="row timeline">
-                <div class="col-2">
-                    <div class="corner right-bottom"></div>
-                </div>
-                <div class="col-8">
-                    <hr />
-                </div>
-                <div class="col-2">
-                    <div class="corner top-left"></div>
-                </div>
-            </div>
-            <!--third section-->
-            <div class="row align-items-center how-it-works">
-                <div class="col-2 text-center bottom">
-                    <div class="circle">07 - 2020</div>
-                </div>
-                <div class="col-6">
-                    <h5 style="font-size:x-large;">Lanzamiento de Poriun Coin</h5>
-                    <p>Poriun es creado en la unidad de génesis, ya que la primera transacción define las reglas y
-                        parámetros de la moneda</p>
-                </div>
-            </div>
-
-            <!--path between 3-4-->
-            <div class="row timeline">
-                <div class="col-2">
-                    <div class="corner top-right"></div>
-                </div>
-                <div class="col-8">
-                    <hr />
-                </div>
-                <div class="col-2">
-                    <div class="corner left-bottom"></div>
-                </div>
-            </div>
-            <!--Fourth section-->
-            <div class="row align-items-center justify-content-end how-it-works">
-                <div class="col-6 text-right">
-                    <h5 style="font-size:x-large;">Lanzamiento de Explorer y Billeteras</h5>
-                    <p>Aparece el Explorador de Cadenas para realizar un seguimiento de las transacciones en el libro
-                        mayor, y se lanza la Billetera para PC v1.0 para almacenar y usar Poriun</p>
-                </div>
-                <div class="col-2 text-center full">
-                    <div class="circle">08 - 2020</div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-lg-6 col-md-6 col-xs-12 info">
+                    <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+                        <div>
+                            <br>
+                            <div class="content">
+                                <p style="text-align: center">
+                                    Aqui un parrafo de porque deben consultar los terminos legales como la politica de privacidad y los terminos y condiciones. PD: Aqui irian tambien el Disclaimer SI TAN SOLO HUBIERA UNO >:v</p>
+                                <div class="row">
+                                    <br>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <br>
+                                        <a href="/privacity-policity" class="btn btn-common mt-3">Politicas de Privacidad</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <br>
+                                        <a href="/terms-and-condition" class="btn btn-common mt-3">Terminos y Condiciones</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-</div>
+    </section>
+    <!-- Descarga Section End-->
 
-{{> footer }}
+
+    <!-- Testimonial Section Start -->
+  
+    {{> testimonial }}
+    <!-- Testimonial Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding bg-gray">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contactanos</h2>
+                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+            </div>
+            <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <div class="contact-block">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required data-error="Por favor ingresa tu nombre">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Por favor ingresa tu email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Asunto" id="msg_subject" class="form-control" required data-error="Por favor ingresa un asunto">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="Mensaje" placeholder="Your Message" rows="7" data-error="Escribe tu mensaje" required></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="submit-button text-left">
+                                        <button class="btn btn-common" id="form-submit" type="submit">Enviar Mensaje</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-xs-12">
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- circulos Section Start -->
+    <section id="" class="section-padding bg-white">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Distribución de fichas</h2>
+                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <br>
+                    <div class="progress mx-auto" data-value='60'>
+                        <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">60<sup class="small">%</sup></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="text-align: center;">Venta de fichas</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <br>
+                    <div class="progress mx-auto" data-value='20'>
+                        <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">20<sup class="small">%</sup></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="text-align: center;">Reserva del proyecto</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <br>
+                    <div class="progress mx-auto" data-value='15'>
+                        <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">15<sup class="small">%</sup></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="text-align: center;">Fichas de equipo</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <br>
+                    <div class="progress mx-auto" data-value='10'>
+                        <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">10<sup class="small">%</sup></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="text-align: center;">Asociaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Circulos Section End -->
+
+    <!-- Socios Section Start -->
+    {{> socios}}
+    <!-- Socios Section End -->
+    <!-- Footer  con muchas cosas xd -->
+   
+    <!-- Footer Start -->
+    {{> footer }}
+    <!-- Footer end -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+        <i class="lni-arrow-up"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
