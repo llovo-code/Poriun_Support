@@ -3,9 +3,7 @@ const routes = express.Router();
 
 
 routes.get('/', async(req, res) => {
-    res.render('home/index.hbs', {
-        title: 'Poriun Español'
-    });
+    res.render('home/index.hbs', {});
 });
 
 routes.get('/download', (req, res) => {
