@@ -4,10 +4,10 @@
 
     $(window).on('load', function() {
 
-        var location = window.location.pathname
+        var locationpathURL = window.location.pathname
 
-        var dir = location.split('/');
-        if (location != '/') {
+
+        if (locationpathURL != '/') {
             $('.scrolling-navbar').addClass('top-nav-collapse');
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
@@ -25,7 +25,7 @@
 
             } else {
 
-                if (location === '/') {
+                if (locationpathURL === '/') {
                     $('.scrolling-navbar').removeClass('top-nav-collapse');
                 }
 
