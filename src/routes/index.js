@@ -1,3 +1,4 @@
+const { Router } = require('express');
 const express = require('express')
 const routes = express.Router();
 
@@ -40,6 +41,10 @@ routes.get('/terms-and-condition', (req, res) => {
 routes.get('/disclaimer', (req, res) => {
     res.render('home/disclaimer');
 })
+
+routes.get('/FAQ', (req, res) => {
+    res.render('home/FAQ');
+});
 
 
 module.exports = routes;
