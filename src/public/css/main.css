@@ -602,6 +602,7 @@ hr {
     background: white;
     z-index: 999999;
     padding: 5px !important;
+    overflow: auto;
     top: 0px !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
     background: white !important;
@@ -626,6 +627,7 @@ hr {
 
 .top-nav-collapse .navbar-brand img {
     width: 70%;
+    filter: invert(100%);
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
@@ -648,9 +650,9 @@ hr {
 /** edite esto*/
 
 .navbar-expand-md .navbar-toggler {
-    background: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #000000;
+    color: #000000;
+    overflow: hidden;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -1704,5 +1706,32 @@ section.T .section-title {
 
 .dotpdot li::before {
     counter-increment: dotpdot;
-    content: "1." counter(dotpdot) " ";
+    content: "-" " ";
+}
+
+
+/* FAQ */
+
+.collapsible {
+    background-color: white;
+    color: #1d4091;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: #1d4091;
+    color: white;
+}
+
+.content2 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
