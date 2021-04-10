@@ -644,10 +644,21 @@ hr {
     color: #1d4091 !important;
 }
 
+
+/** edite esto*/
+
 .navbar-expand-md .navbar-toggler {
     background: transparent;
     border: 1px solid white;
     color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar-toggler-collapse {
+    background: transparent;
+    border: 1px solid black !important;
+    color: black !important;
     border-radius: 4px;
     cursor: pointer;
 }

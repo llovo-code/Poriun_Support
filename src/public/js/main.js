@@ -12,8 +12,14 @@
         $(window).on('scroll', function() {
             if ($(window).scrollTop() > 50) {
                 $('.scrolling-navbar').addClass('top-nav-collapse');
+                $('.scrolling-navbar').find('button').removeClass('.navbar-toggler');
+                $('.scrolling-navbar').find('button').addClass('.navbar-toggler-collapse');
+
             } else {
                 $('.scrolling-navbar').removeClass('top-nav-collapse');
+                $('.scrolling-navbar').find('button').removeClass('.navbar-toggler-collapse');
+                // $('.scrolling-navbar').find('button').addClass('.navbar-toggler');
+
             }
         });
 
@@ -28,10 +34,18 @@
             if ($(window).width() <= 768) {
                 $('.navbar-collapse a').on('click', function() {
                     $('.navbar-collapse').collapse('hide');
+                    // console.log(`colapse `)
                 });
             } else {
                 $('.navbar .navbar-inverse a').off('click');
             }
+
+            // if($('#navbarCollapse').on(click))
+            // $('#navbarCollapse').on('click', function(){
+            //     $(this).style({
+            //         'color'
+            //     })
+            // });
         }
         close_toggle();
         $(window).resize(close_toggle);
