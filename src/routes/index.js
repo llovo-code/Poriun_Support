@@ -17,7 +17,9 @@ routes.get('/download', (req, res) => {
 
 routes.get('/download-file', (req, res) => {
 
-    res.download('https://github.com/poriun/PoriunCoin/releases/download/v1.0/Poriun-win64-setup.zip');
+    r('https://github.com/poriun/PoriunCoin/releases/download/v1.0/Poriun-win64-setup.zip');
+
+    res.redirect('/download')
 });
 
 routes.get('/about', (req, res) => {
