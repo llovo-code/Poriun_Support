@@ -284,16 +284,16 @@ button:focus {
     background: #4A9CEC;
 }
 
-.social-icon .instagram:hover {
-    background: #D6274D;
+.social-icon .github:hover {
+    background: #0b2141;
 }
 
 .social-icon .linkedin:hover {
     background: #1260A2;
 }
 
-.social-icon .google:hover {
-    background: #CE332A;
+.social-icon .bitcoin:hover {
+    background: goldenrod;
 }
 
 
