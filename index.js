@@ -8,7 +8,7 @@ const expresshbs = require('express-handlebars');
 
 
 ///hbs.registerPartials(path.join(__dirname, 'views/partials'));
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT);
 app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', expresshbs({
